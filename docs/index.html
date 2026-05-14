@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>ECI Dashboard POC</title>
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+</head>
+<link rel="stylesheet" href="./static/styles/styles.css">
+
+<body>
+  <div class="dashboard-container" id="top">
+
+    <div id="header-slot"></div>
+
+    <a
+      href="https://citizens-initiative.europa.eu/_en"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="./static/images/eci_take_initiative_banner.png"
+        alt="European Citizens' Initiative — Take the Initiative"
+        class="eci-banner"
+      />
+    </a>
+    
+    <div id="analysis-cta-slot"></div>
+
+    <blockquote class="eci-definition">
+      An ECI is a formal mechanism allowing EU citizens to propose legislation
+      if they collect 1 million signatures from at least 7 different member
+      states within (in most cases) 12 months.
+    </blockquote>
+
+    <div id="kpi-row-slot"></div>
+
+    <div class="initiative-list-container" id="collection-ongoing-list-slot">
+      <div id="list-collection-ongoing-slot"></div>
+    </div>
+
+    <div class="chart-row-full">
+      <div id="chart-top-10-signatures-slot"></div>
+    </div>
+
+    <div class="move-top-page">
+      <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll to top" title="Back to top">
+        &#8963;
+      </button>
+    </div>
+
+    <div class="chart-row-full">
+    <div id="chart-signatures-map-slot"></div>
+  </div>
+  
+    <div class="chart-row-split">
+      <div id="chart-signatures-cohorts-slot"></div>
+      <div id="chart-outcomes-slot"></div>
+    </div>
+    
+    <div class="chart-row-full">
+      <div id="chart-bubble-finance-plot-slot"></div>
+    </div>
+    
+    <div class="chart-row-full">
+      <div id="chart-ecis-year-slot"></div>
+    </div>
+     
+    <div class="initiative-list-container" id="total-initiatives-list-slot">
+      <div id="list-total-initiatives-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="reached-signatures-list-slot">
+      <div id="list-reached-signatures-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="got-response-list-slot">
+      <div id="list-got-response-slot"></div>
+    </div>
+
+    <div class="initiative-list-container" id="law-passed-list-slot">
+      <div id="list-law-passed-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="rejected-legislation-list-slot">
+      <div id="list-rejected-legislation-slot"> </div>
+    </div>
+    
+    <div class="initiative-list-container" id="commission-engaged-list-slot">
+      <div id="list-commission-engaged-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="awaiting-response-list-slot">
+      <div id="list-awaiting-response-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="collection-unsuccessful-list-slot">
+      <div id="list-collection-unsuccessful-slot"> </div>
+    </div>
+
+    <div class="initiative-list-container" id="withdrawn-list-slot">
+      <div id="list-withdrawn-slot"> </div>
+    </div>
+
+    <div id="last-data-update-slot"></div>
+
+  <script src="./static/script/back_to_top.js"></script>
+  <script src="./static/script/elements/static.js"></script>
+  <script src="./generated/script/elements/generated.js"></script>
+  <script src="./static/script/partials.js"></script>
+  <script src="./static/script/move_to_section.js"></script>
+  <script src="./static/script/left_days.js"></script>
+
+</body>
+</html>

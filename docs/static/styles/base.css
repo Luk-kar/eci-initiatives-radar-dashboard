@@ -1,0 +1,70 @@
+/*
+  Base page styles for the ECI Dashboard.
+  - Sets a light grey background with a clean sans-serif font and no default browser margins.
+  - All content is wrapped in a centred, max-width container to keep the layout readable on wide screens.
+  - Cards are white panels with rounded corners and a soft shadow to visually separate sections.
+  - The bottom row uses flexbox to place two charts side by side, collapsing to a single column on mobile screens.
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f7f9;
+}
+
+h1 {
+  text-align: center;
+  color: #2A3F5F;
+  margin-bottom: 15px;
+  position: relative;   /* anchor for the absolute-positioned link */
+}
+
+.github-link {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2A3F5F;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  line-height: 0;       /* prevent extra height from inline SVG */
+}
+
+.github-link:hover {
+  opacity: 0.6;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.chart-row-full {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-row-split {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom-col {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .chart-row-split {
+    flex-direction: column;
+  }
+}

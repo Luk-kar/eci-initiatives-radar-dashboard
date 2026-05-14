@@ -1,0 +1,27 @@
+/*
+  Styles for inline explanatory text blocks and date_timestamp
+  - eci-definition: a pull-quote styled blockquote used to explain the ECI mechanism.
+  - Left navy border signals an informational aside without using an alert or card component.
+  - Italic text and muted colour keep it visually subordinate to the main content.
+*/
+
+.eci-definition {
+  margin: 0 0 20px 0;
+  padding: 10px 16px;
+  border-left: 4px solid #00339940; /* ~25% transparent */
+  background-color: #f0f4fa;
+  border-radius: 0 6px 6px 0;
+  color: #2a3f5f;
+  font-size: 0.875rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.data-timestamp {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 24px;
+  padding: 8px 0 16px;
+  border-top: 1px solid #e0e0e0;
+}
