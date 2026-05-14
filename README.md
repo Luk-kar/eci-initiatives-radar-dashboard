@@ -1,7 +1,7 @@
 # 🇪🇺📊 ECI Initiatives Radar — Dashboard
 
 <p align="center">
-  <a href="https://luk-kar.github.io/eci-initiatives-radar/">
+  <a href="https://luk-kar.github.io/eci-initiatives-radar-dashboard">
     <img src="images/page_preview.png" alt="ECI Initiatives Radar dashboard preview" width="600" />
   </a><br/>
   <sub>Interactive dashboard tracking ECI statuses, Commission responses, and legislative follow-ups.</sub>
@@ -15,7 +15,7 @@ The content of this repository is **auto-generated** every Saturday by the [eci-
 
 - The fully rendered static website (`index.html` + assets)
 - Generated Plotly charts, KPI counters, and initiative tables
-- Published via [**GitHub Pages**](https://luk-kar.github.io/eci-initiatives-radar/)
+- Published via [**GitHub Pages**](https://luk-kar.github.io/eci-initiatives-radar-dashboard)
 
 > For architecture details, data sources, and how to run the pipeline locally,
 > see the [pipeline repository README](https://github.com/Luk-kar/eci-initiatives-radar-pipeline).
