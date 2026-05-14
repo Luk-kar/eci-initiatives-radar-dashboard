@@ -1,4 +1,4 @@
-# 🇪🇺 ECI Initiatives Radar — Dashboard
+# 🇪🇺📊 ECI Initiatives Radar — Dashboard
 
 A static dashboard tracking **European Citizens' Initiatives (ECIs)** — their status, Commission responses, and legislative follow-ups.
 
